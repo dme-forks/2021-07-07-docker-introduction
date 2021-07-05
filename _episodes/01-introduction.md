@@ -79,7 +79,7 @@ this workshop. But what *is* a container?
 
 To understand containers, let's first talk briefly about your computer. 
 
-Your computer has some standard pieces that allow it to work - often what's 
+Your computer has some standard pieces that allow it to work -- often what's 
 called the hardware. One of these pieces is the CPU or processor; another is 
 the amount of memory or RAM that your computer can use to store information 
 temporarily while running programs; another is the hard drive, which can store 
@@ -113,14 +113,14 @@ the container software installed (the 'container host'), and it should "just wor
 > second "virtual" computer running and accessible from a main or **host**
 > computer. Another example of virtualization are **virtual machines** or 
 > VMs. A virtual machine typically contains a whole copy of an operating system in 
-> addition to its own file system and has to get booted up in the same way 
+> addition to its own filesystem and has to get booted up in the same way 
 > a computer would. 
 > A container is considered a lightweight version of a virtual machine; 
 > underneath, the container is (usually) using the Linux kernel and simply has some 
 > flavour of Linux + the filesystem inside. 
 {: .callout}
 
-One final term: while the **container** is an alternative file system layer that you 
+One final term: while the **container** is an alternative filesystem layer that you 
 can access and run from your computer, the **container image** is the 'recipe' or template
 for a container. The container image has all the required information to start
 up a running copy of the container. A running container tends to be transient 
@@ -138,7 +138,7 @@ of scientific software installations make it hard to install and re-install
 scientific software -- which ultimately, hinders reliability and reproducibility. 
 
 But now, think about what a container is - a self-contained, complete, separate 
-computer file system. What advantages are there if you put your scientific software
+computer filesystem. What advantages are there if you put your scientific software
 tools into containers? 
 
 This solves several of our problems: 
