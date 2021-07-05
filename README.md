@@ -1,4 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/carpentries-incubator/docker-introduction)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://dme-forks.github.io/2021-07-07-docker-introduction)
 
 # Reproducible computational environments using containers: Introduction to Docker
 
@@ -18,7 +18,7 @@ We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTR
 the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
 how to write new episodes.
 
-Please see the current list of [issues](https://github.com/carpentries-incubator/docker-introduction/issues) for ideas for contributing to this
+Please see the current list of [issues](https://dme-forks.github.io/2021-07-07-docker-introduction/issues) for ideas for contributing to this
 repository. For making your contribution, we use the GitHub flow, which is
 nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.

@@ -77,4 +77,4 @@ Do you have another example of using Docker in a workflow related to your field?
 {% endcomment %}
 
 
-[submit a pull request]: https://github.com/carpentries-incubator/docker-introduction/pulls
+[submit a pull request]: https://dme-forks.github.io/2021-07-07-docker-introduction/pulls
