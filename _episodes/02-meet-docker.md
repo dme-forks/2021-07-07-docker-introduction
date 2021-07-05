@@ -40,7 +40,7 @@ $ docker --version
 ~~~
 {: .language-bash}
 ~~~
-Docker version 20.10.5, build 55c4c88
+Docker version 20.10.7, build f0df350
 ~~~
 {: .output}
 
@@ -79,22 +79,22 @@ Usage:  docker [OPTIONS] COMMAND
 A self-sufficient runtime for containers
 
 Options:
-      --config string      Location of client config files (default "/Users/vini/.docker")
+      --config string      Location of client config files (default "/Users/dme26/.docker")
   -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket(s) to connect to
   -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
       --tls                Use TLS; implied by --tlsverify
-      --tlscacert string   Trust certs signed only by this CA (default "/Users/vini/.docker/ca.pem")
-      --tlscert string     Path to TLS certificate file (default "/Users/vini/.docker/cert.pem")
-      --tlskey string      Path to TLS key file (default "/Users/vini/.docker/key.pem")
+      --tlscacert string   Trust certs signed only by this CA (default "/Users/dme26/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/Users/dme26/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/Users/dme26/.docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
 
 Management Commands:
-  app*        Docker App (Docker Inc., v0.9.1-beta3)
   builder     Manage builds
   buildx*     Build with BuildKit (Docker Inc., v0.5.1-docker)
+  compose*    Docker Compose (Docker Inc., 2.0.0-beta.4)
   config      Manage Docker configs
   container   Manage containers
   context     Manage contexts
@@ -103,7 +103,7 @@ Management Commands:
   network     Manage networks
   node        Manage Swarm nodes
   plugin      Manage plugins
-  scan*       Docker Scan (Docker Inc., v0.6.0)
+  scan*       Docker Scan (Docker Inc., v0.8.0)
   secret      Manage Docker secrets
   service     Manage services
   stack       Manage Docker stacks
@@ -155,6 +155,8 @@ Commands:
   wait        Block until one or more containers stop, then print their exit codes
 
 Run 'docker COMMAND --help' for more information on a command.
+
+To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
 ~~~
 {: .output}
 
@@ -162,7 +164,7 @@ There is a list of commands and the end of the help message says: `Run 'docker C
 a command.` For example, take the `docker container ls` command that we ran previously. We can see from the Docker help prompt
 that `container` is a Docker command, so to get help for that command, we run:
 ~~~
-docker container --help  # or instead 'docker container'
+docker container --help  # or instead just 'docker container'
 ~~~
 {: .language-bash}
 ~~~
